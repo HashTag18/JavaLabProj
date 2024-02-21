@@ -13,7 +13,7 @@ public class Fibonnaci {
 	(a+","+b+",");
 	int NextNum;
 	
-	for (int i=0;i<=num;i++)
+	for (int i=0;i<=num-2;i++) //To cut out 1 and 0 that are already printed
 		{
 			NextNum=a+b;
 			a=b;
