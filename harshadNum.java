@@ -5,15 +5,15 @@ public class harshadNum {
 	
 	public static boolean checkNum(int num)
 		{
-			int num2=num;
-			int num3=num;
-			while(num3>0)
+			int num2=num
+			int sum=0;
+			while(num2!=0)
 				{
-					num3/=10;
-					num2%=10;
+					sum=num2%10;
+					num2/=10;
 					
 				}
-			return ((num%num2)==0);
+			return ((num%sun)==0);
 		}
 
 	public static void main(String[] args) {
