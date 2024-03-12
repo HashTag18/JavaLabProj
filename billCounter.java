@@ -28,7 +28,7 @@ public class billCounter {
             System.out.println(i + " : Enter Value");
             double value = sc.nextDouble();
             int ch = (value <= 9000) ? (1) : ((value <= 12000) ? (2) : ((value <= 15000) ? (3) : (4)));
-            double value1 = value;
+            double value1 ;
             switch (ch) {
                 case 1:
                     value1 = below9(value);
